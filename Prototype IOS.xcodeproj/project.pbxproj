@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		287802001FCCFFB0001B222F /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287801FF1FCCFFB0001B222F /* UIViewX.swift */; };
 		287802021FCCFFB5001B222F /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802011FCCFFB5001B222F /* UIButtonX.swift */; };
+		287802051FCD0F5E001B222F /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 287802041FCD0F5E001B222F /* Champagne & Limousines.ttf */; };
 		28DFA1031FCB8E0600328368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFA1021FCB8E0600328368 /* AppDelegate.swift */; };
 		28DFA1051FCB8E0600328368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFA1041FCB8E0600328368 /* ViewController.swift */; };
 		28DFA1081FCB8E0600328368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DFA1061FCB8E0600328368 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		287801FF1FCCFFB0001B222F /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		287802011FCCFFB5001B222F /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		287802041FCD0F5E001B222F /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines.ttf"; sourceTree = "<group>"; };
 		28DFA0FF1FCB8E0600328368 /* Prototype IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DFA1021FCB8E0600328368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28DFA1041FCB8E0600328368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		287802031FCD0F44001B222F /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				287802041FCD0F5E001B222F /* Champagne & Limousines.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		28DFA0F61FCB8E0600328368 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		28DFA11D1FCBB4CE00328368 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				287802031FCD0F44001B222F /* fonts */,
 				28DFA1201FCBBF9B00328368 /* FloatActionButton.swift */,
 				287801FF1FCCFFB0001B222F /* UIViewX.swift */,
 				287802011FCCFFB5001B222F /* UIButtonX.swift */,
@@ -177,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28DFA10D1FCB8E0600328368 /* LaunchScreen.storyboard in Resources */,
+				287802051FCD0F5E001B222F /* Champagne & Limousines.ttf in Resources */,
 				28DFA11F1FCBB4F000328368 /* DesignableX in Resources */,
 				28DFA10A1FCB8E0600328368 /* Assets.xcassets in Resources */,
 				28DFA1081FCB8E0600328368 /* Main.storyboard in Resources */,

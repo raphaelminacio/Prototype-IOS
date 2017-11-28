@@ -3,26 +3,36 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var menuView: UIView!
+    @IBOutlet weak var menuButton: UIButtonX!
     @IBOutlet weak var gradeButton: UIButton!
     @IBOutlet weak var addButton: UIButton!
+    @IBOutlet weak var logo: UILabel!
     
-    var tableData: [Model] = []
     
+    //================
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        tableView.dataSource = self
-//        
-//        Data.getData { (data) in
-//            self.tableData = data
-//            self.tableView.reloadData()
-//        }
+        //--------- Here is the logo "Évaluation+" animation
+        
+        logo.center.x = self.view.frame.width + 30
+        
+        UIView.animate(withDuration: 2.5, delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 30, options: [], animations: ({
+            
+            self.logo.center.x = self.view.frame.width / 2
+            
+        }), completion: nil)
+        
+       
+        
+        //---------
+        
         closeMenu()
     }
     //================
     @IBAction func menuTapped(_ sender: FloatActionButton) {
+        
         UIView.animate(withDuration: 0.3, animations: {
             
             if self.menuView.transform == .identity {
@@ -53,15 +63,3 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return tableData.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "tableViewCell") as! TableViewCell
-        cell.setup(model: tableData[indexPath.row])
-        return cell
-    }
-}
