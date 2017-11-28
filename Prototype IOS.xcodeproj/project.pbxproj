@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		287802001FCCFFB0001B222F /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287801FF1FCCFFB0001B222F /* UIViewX.swift */; };
+		287802021FCCFFB5001B222F /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287802011FCCFFB5001B222F /* UIButtonX.swift */; };
 		28DFA1031FCB8E0600328368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFA1021FCB8E0600328368 /* AppDelegate.swift */; };
 		28DFA1051FCB8E0600328368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFA1041FCB8E0600328368 /* ViewController.swift */; };
 		28DFA1081FCB8E0600328368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DFA1061FCB8E0600328368 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		287801FF1FCCFFB0001B222F /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		287802011FCCFFB5001B222F /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
 		28DFA0FF1FCB8E0600328368 /* Prototype IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DFA1021FCB8E0600328368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28DFA1041FCB8E0600328368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				28DFA1201FCBBF9B00328368 /* FloatActionButton.swift */,
+				287801FF1FCCFFB0001B222F /* UIViewX.swift */,
+				287802011FCCFFB5001B222F /* UIButtonX.swift */,
 				28DFA11E1FCBB4F000328368 /* DesignableX */,
 			);
 			path = Resources;
@@ -188,7 +194,9 @@
 				28DFA11C1FCB8F2C00328368 /* TableViewCell.swift in Sources */,
 				28DFA1181FCB8F0000328368 /* Model.swift in Sources */,
 				28DFA1051FCB8E0600328368 /* ViewController.swift in Sources */,
+				287802021FCCFFB5001B222F /* UIButtonX.swift in Sources */,
 				28DFA1031FCB8E0600328368 /* AppDelegate.swift in Sources */,
+				287802001FCCFFB0001B222F /* UIViewX.swift in Sources */,
 				28DFA11A1FCB8F1000328368 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
