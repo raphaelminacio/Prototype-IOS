@@ -18,11 +18,11 @@ class ViewController: UIViewController {
         
         logo.center.x = self.view.frame.width + 30
         
-        UIView.animate(withDuration: 2.5, delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 30, options: [], animations: ({
+        UIView.animate(withDuration: 2.5, delay: 0, usingSpringWithDamping: 1.0, initialSpringVelocity: 30, options: [], animations: {
             
             self.logo.center.x = self.view.frame.width / 2
             
-        }), completion: nil)
+        })
         
        
         
@@ -49,6 +49,7 @@ class ViewController: UIViewController {
                 self.addButton.transform = .identity
             }
         })
+        
     }
     //================
     @IBAction func gradeResults(_ sender: UIButton) {
